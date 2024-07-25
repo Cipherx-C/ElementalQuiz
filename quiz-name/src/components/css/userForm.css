@@ -1,0 +1,29 @@
+/* Form Styles */
+form {
+    
+    width: 100%;
+    margin: 80px 400px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input {
+    width: 100%; /* Preenche a largura do contêiner do formulário */
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  form button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

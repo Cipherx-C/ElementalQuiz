@@ -1,0 +1,21 @@
+/* Question Styles */
+div {
+    text-align: center;
+    
+  }
+  
+  button {
+    display: block; /* Faz com que cada botão ocupe uma linha */
+    margin: 10px auto; /* Espaço ao redor dos botões e centraliza horizontalmente */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #e0e0e0;
+    color: black;
+  }
+  
+  button:hover {
+    background-color: #c4c4c4;
+  }
+  

@@ -1,0 +1,10 @@
+.artwork {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.artwork img {
+  max-width: 20%; 
+  height: auto; 
+  border-radius: 10px;
+}

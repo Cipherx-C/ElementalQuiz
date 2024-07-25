@@ -1,0 +1,112 @@
+/* General Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px; /* Ajuste conforme necessário */
+  padding: 20px;
+  background: white; /* Adiciona um fundo branco para destacar o contêiner */
+  border-radius: 8px; /* Adiciona bordas arredondadas */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adiciona sombra para um efeito de profundidade */
+}
+
+header {
+  color: black;
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+  max-width: 400px;
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column; /* Adicionando direção de coluna para centralizar o conteúdo do formulário */
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input {
+  width: 100%; /* Ajustado para preencher o contêiner do formulário */
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+form button {
+  color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Question Styles */
+h2 {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+p {
+  text-align: center;
+  width: 100%;
+}
+
+button {
+  color: black;
+  padding: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c4c4c4;
+}
+
+.artwork {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.artwork img {
+  max-width: 100%; /* Ajustado para garantir que a imagem não exceda o contêiner */
+  border-radius: 10px;
+}
+
+.artwork p {
+  margin: 5px 0;
+  text-align: center;
+}
